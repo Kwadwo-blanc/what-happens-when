@@ -416,7 +416,6 @@ HTTP protocol
 If the web browser used was written by Google, instead of sending an HTTP
 request to retrieve the page, it will send a request to try and negotiate with
 the server an "upgrade" from HTTP to the SPDY protocol.
-
 If the client is using the HTTP protocol and does not support SPDY, it sends a
 request to the server of the form::
 
